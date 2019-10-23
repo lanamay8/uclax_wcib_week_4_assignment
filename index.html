@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Week 4</title>
+    <title>Genius Aire</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +18,171 @@
   </head>
 
   <body>
-    <a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com/</a>
+       <header>
+     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+       <a class="navbar-brand" href="index.html">Genius Aire</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarCollapse">
+         <ul class="navbar-nav mr-auto">
+           <li class="nav-item active">
+             <a class="nav-link" href="#offerings">Offerings<span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#specials">Special Programs</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#contact">Get in Touch</a>
+           </li>
+         </ul>
+         <form class="form-inline mt-2 mt-md-0">
+           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+           <button class="btn btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+         </form>
+       </div>
+     </nav>
+   </header>
+
+   <main role="main">
+
+     <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+       <ol class="carousel-indicators">
+         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+         <li data-target="#myCarousel" data-slide-to="1"></li>
+         <li data-target="#myCarousel" data-slide-to="2"></li>
+       </ol>
+       <div class="carousel-inner">
+         <div class="carousel-item active" data-interval="7000">
+           <img src="images/beach.jpg" class="d-block w-100" alt="beach in summer">
+           <div class="container">
+             <div class="carousel-caption text-left">
+               <h1>We Sell Good Aire</h1>
+               <p>Bring high quality Aire into your home, place of business or retail establishment. Proportions of oxygen, nitrogen and carbon dioxide optimized for humans.</p>
+               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+             </div>
+           </div>
+         </div>
+         <div class="carousel-item" data-interval="7000">
+           <img src="images/summer-field1.jpg" class="d-block w-100" alt="floral summer field">
+           <div class="container">
+             <div class="carousel-caption text-right">
+               <h1>Undetectable Perception</h1>
+               <p>Our Aire leaves an impression on your olfactory senses without perfumes or chemicals. Feel like you're in a field of flowers without the scent or the pollen.<br>It's pure magic.</p>
+               <p><a class="btn btn-lg btn-primary" href="#" role="button">Our science</a></p>
+             </div>
+           </div>
+         </div>
+         <div class="carousel-item" data-interval="7000">
+           <img src="images/fall1.jpg" class="d-block w-100" alt="fall forest">
+           <div class="container">
+             <div class="carousel-caption">
+               <h1>Let Them Know It's Time to Go</h1>
+               <p>Switch your Genius Aire from pleasant to not-so-pleasant impressions. They'll know it's time to leave when their senses meet our proprietary blend of gently rotting forest vegetation.</p>
+               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+       </a>
+       <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+       </a>
+     </div>
+
+
+     <!-- Marketing messaging and featurettes
+     ================================================== -->
+     <!-- Wrap the rest of the page in another container to center all the content. -->
+     <div class="container marketing" id="offerings">
+
+       <!-- Three columns of text below the carousel -->
+       <div class="row">
+         <div class="col-lg-3">
+           <img src="images/pine-circle.png" alt="piney forest" width="140" height="140">
+           <h2>Perfect Essences</h2>
+           <p>Our Undetectable Essences are diffused via our perfectly balanced Genius Aire. Options include Piney Forest Aire, Salty Beach Aire, and Floral Field Aire, among a variety of others.</p>
+           <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+         </div><!-- /.col-lg-3 -->
+         <div class="col-lg-3">
+           <img src="images/humid-circle.png" alt="humid air" width="140" height="140">
+           <h2>Tactile Essences</h2>
+           <p>Optional are our Tactile Essence add-ons. You'll notice the feel of our Aire as it flows through your respiratory system. Think weighty summer humidity, arid desert dryness or the sooty particulate of a smoldering campfire.</p>
+           <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+         </div><!-- /.col-lg-3 -->
+         <div class="col-lg-3">
+           <img src="images/minty-cool-circle.jpg" alt="minty cool cake" width="140" height="140">
+           <h2>Pseudoflavors</h2>
+           <p>You'll savor our Genius Aire Pseudoflavors in Minty Frost, Lush Raspberry and Megarich Cocoa. Stay tuned for the coming release of our latest PIDs (Pseudoflavors in Development)!</p>
+           <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+         </div><!-- /.col-lg-3 -->
+         <div class="col-lg-3">
+           <img src="images/garbage-circle.jpg" alt="garbage man" width="140" height="140">
+           <h2>Gotta Go</h2>
+           <p>We've thought of everything. Our revolutionary Undetectable Essences can also help you thin a crowd. Move your customers out at closing time with the essence of Week-Late Garbage Day, Manhattan Exhaust Fumes, or English Goat Pasture.</p>
+           <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+         </div><!-- /.col-lg-3 -->
+       </div><!-- /.row -->
+
+
+       <!-- START THE FEATURETTES -->
+
+       <hr class="featurette-divider" id="specials">
+
+       <div class="row featurette">
+         <div class="col-md-7">
+           <h2 class="featurette-heading">Custom Essence Profile<br><span class="text-muted">Unique to your specific needs.</span></h2>
+           <p class="lead">Tell us what you need and we'll work with you to create a custom Undetectable Essence profile.</p>
+         </div>
+         <div class="col-md-5">
+           <img src="images/chart.jpg" alt="complex chart" width="500" height="500">
+         </div>
+       </div>
+
+       <hr class="featurette-divider">
+
+       <div class="row featurette">
+         <div class="col-md-6 order-md-2">
+           <h2 class="featurette-heading">Participate in a Working Group. <span class="text-muted">You are invited.</span></h2>
+           <p class="lead">All of our customers are welcome to join our ongoing working group gatherings. Experience our new offerings before they're released. Provide suggestions for new Undetectable Essence development.</p>
+         </div>
+         <div class="col-md-6 order-md-1">
+           <img src="images/working-grp.jpg" alt="working group" width="500" height="500">
+         </div>
+       </div>
+
+       <hr class="featurette-divider">
+
+       <div class="row featurette">
+         <div class="col-md-7">
+           <h2 class="featurette-heading">Join the Elitist Aire Club<br><span class="text-muted">Because You are the Best.</span></h2>
+           <p class="lead">Select one of our rotating essence programs and you become a member. Options include monthly, quarterly and bi-annual Essence rotations.</p>
+         </div>
+         <div class="col-md-5">
+           <img src="images/card.png" alt="VIP card" width="500" height="500">
+         </div>
+       </div>
+
+       <hr class="featurette-divider">
+
+       <!-- /END THE FEATURETTES -->
+
+     </div><!-- /.container -->
+
+
+     <!-- FOOTER -->
+     <footer class="container" id="contact">
+       <p class="float-right"><a id="blue" href="#">Back to top</a></p>
+       <p>&copy; 2019 Genius Aire, Inc. &middot; <a href="mailto:topbrain@geniusaire.com">topbrain@geniusaire.com</a> &middot; <a href="tel:888-555-1234">888-555-1234</a></p>
+     </footer>
+   </main>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+         <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+
 	</body>
 
 </html>
